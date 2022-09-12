@@ -1,0 +1,24 @@
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+td{
+    height: 2cm;
+    width: 2cm;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    border: 2px solid white;
+}
+table{
+    border-spacing:0;
+    border-collapse: collapse;
+    margin: auto;
+}
