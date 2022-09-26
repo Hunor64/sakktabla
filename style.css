@@ -1,24 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
-    
-}
 
 .container{
-    width: 70px;
-    height: 150px;
-    border: 1px solid black;
-}
-.container div:nth-child(2n+1){
-    background-color: blue;
-}
-.container div:nth-child(2n){
-    background-color: black;
-}
-
-.container div{
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-
-}
+    width: 450px; 
+    height: 450px;
+    border: 2px solid black;
+    font-size: 20px; 
+    line-height:2.5; 
+    text-align: center;
+    }
+   
+   .container>div{
+    height:11.11%;
+    }
+   
+   .container>div>div{
+    width:11.11%; height:100%;
+    display:inline-block; vertical-align:top;}
+   
+   .container>div:nth-child(odd)>div:nth-child(even),
+   .container>div:nth-child(even)>div:nth-child(odd){
+        background-color:black; color:white;
+    }
+   
+   .container>div:nth-child(1),.container>div>div:nth-child(1){
+        background-color:black; color:white; 
+    }
