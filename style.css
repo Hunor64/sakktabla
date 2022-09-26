@@ -13,14 +13,16 @@
     }
    
    .container>div>div{
-    width:11.11%; height:100%;
-    display:inline-block; vertical-align:top;}
+    width:11.11%; 
+    height:100%;
+    display:inline-block; 
+    vertical-align:top;}
    
-   .container>div:nth-child(odd)>div:nth-child(even),
-   .container>div:nth-child(even)>div:nth-child(odd){
-        background-color:black; color:white;
+   .container>div:nth-child(odd)>div:nth-child(even), .container>div:nth-child(even)>div:nth-child(odd){
+        background-color:gray;
     }
    
    .container>div:nth-child(1),.container>div>div:nth-child(1){
-        background-color:black; color:white; 
+        background-color:gray; 
+        color:white; 
     }
