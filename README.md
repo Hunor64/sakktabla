@@ -1,2 +1,2 @@
 # Sakktábla
-Sakktábla DIV alapon
+Sakktábla körbe kerettel
