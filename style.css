@@ -1,7 +1,6 @@
-
 .container{
-    width: 450px; 
-    height: 450px;
+    width: 550px; 
+    height: 550px;
     border: 2px solid black;
     font-size: 20px; 
     line-height: 2.5; 
@@ -10,11 +9,11 @@
     }
    
    .container div{
-    height:11.11%;
+    height:10%;
     }
    
    .container div div{
-    width:11.11%; 
+    width:10%; 
     height:100%;
     display:inline-block; 
     vertical-align:top;}
@@ -27,3 +26,8 @@
         background-color:gray; 
         color:white; 
     } 
+
+    .gray{
+        background-color: gray;
+        color: white;
+    }
