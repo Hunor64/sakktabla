@@ -4,26 +4,26 @@
     height: 450px;
     border: 2px solid black;
     font-size: 20px; 
-    line-height:2.5; 
+    line-height: 2.5; 
     text-align: center;
     margin: auto;
     }
    
-   .container>div{
+   .container div{
     height:11.11%;
     }
    
-   .container>div>div{
+   .container div div{
     width:11.11%; 
     height:100%;
     display:inline-block; 
     vertical-align:top;}
    
-   .container>div:nth-child(odd)>div:nth-child(even), .container>div:nth-child(even)>div:nth-child(odd){
+   .container div:nth-child(odd) div:nth-child(even), .container>div:nth-child(even) div:nth-child(odd){
         background-color:gray;
     }
    
-   .container>div:nth-child(1),.container>div>div:nth-child(1){
+   .container div:nth-child(1),.container div div:nth-child(1){
         background-color:gray; 
         color:white; 
     } 
