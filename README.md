@@ -1,2 +1,2 @@
 # Sakktábla
-Sakktábla körbe kerettel
+Sakktábla körbe kerettel DIV alapon css-el
