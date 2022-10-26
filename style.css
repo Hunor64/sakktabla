@@ -30,6 +30,5 @@
 
     .container div:nth-child(10),.container div div:nth-child(10){
         background-color:gray; 
-        color:white; 
+        color:white;  
     } 
-
